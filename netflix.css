@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+.image{
+    height: 700px;
+    width: 100%;
+    background-color: pink;
+    background-image: url('./netflix.jpg');
+    background-size:cover;
+}
+.header{
+    
+    width: 100%;
+    background-color: black;
+    display: flex;
+    /* position: fixed */
+    /* background: transparent; */
+    
+}
+ #logo{
+    height: 100%;
+    width: 255px; 
+    background-color: red;
+    margin-left: 40px;
+     background-image: url('./Netflix-logo-red-black-png.png');
+     background-size:cover;
+     margin-top: -40px;
+     padding-bottom: 110px;
+}
+#one{
+    height: 32px;
+    width: 126px;
+    margin-left: 600px;
+    margin-top: 20px;
+    color: white;
+    background-color: red;
+    font-size: 17px;
+    border-radius: 10px;
+    border: none;
+    
+}
+#two{
+    height: 32px;
+    width:76px ;
+    margin-top: 20px;
+    margin-left: 40px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+}
+#h1{
+    margin-top: 200px;
+    margin-left: 150px;
+}
+#above{
+    padding-left: 240px;
+    padding-top: 20px;
+    font-weight: 600;
+}
+#under{
+    padding-left: 110px;
+    padding-top: 20px;
+    font-weight: 600;
+}
+#box{
+    height: 56px;
+    width: 370px;
+    border: 3px solid white;
+    margin-top: 30px;
+    border-radius: 6px;
+    margin-left: 300px;
+}
+#start{
+    height: 56px;
+    width: 200px;
+    background-color: red;
+    font-size: 24px;
+    border-radius: 6px;
+    border: none;
+    
+}
+/* ////////////////////////////////////////////////////// */
+#new{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    margin-top: 10px;
+    /* display: flex; */
+    /* justify-content: flex-end; */
+}
+#tvv{
+    height: 300px;
+    width: 450px;
+    position: absolute;
+    left: 700px;
+    top: 800px;
+    background-image: url('./mobile-0819.jpg');
+    background-size: contain;
+
+}
+.div{
+    padding-top: 150px;
+    margin-left: 90px;
+}
+/* ////////// */
+.ram{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    margin-top: 10px;
+}
+.girl{
+    height: 300px;
+    width: 450px;
+    position: absolute;
+    left: 100px;
+    top: 1300px;
+    background-image: url('./maxresdefault.jpg');
+    background-size: cover;
+  
+}
+.okk{
+    margin-left: 700px;
+    padding-top: 100px;
+}
+#poo{
+    margin-top: 20px;
+}
+/* ///////////////////////// */
+.link{
+    height: 500px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: black;
+}
+.laptop{
+    height: 300px;
+    width: 450px;
+    position: absolute;
+    left: 700px;
+    top: 1850px;
+    background-image: url('./MV5BMzhmOGQxMjQtYmFkOC00MTc0LTk2N2UtMTc4NzVlNzcyNWNlXkEyXkFqcGdeQXVyMTU2MTIyODU2._V1_.jpg');
+    background-size: cover;
+}
+.hen{
+    margin-left: 200px;
+    padding-top: 140px;
+}
+#nmo{
+    padding-top: 30px;
+}
+.all{
+    background-color: blue;
+}
+/* ////////////// */
+#footer{
+    height: 500px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+li{
+    list-style-type: none;
+    text-decoration: underline;
+    padding-top: 20px;
+}
